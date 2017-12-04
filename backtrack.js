@@ -27,4 +27,5 @@ function subsets(options)
 	dfs(options.length,options,0,temp,result);
 }
 
+
 subsets(["a","b","c"]);
